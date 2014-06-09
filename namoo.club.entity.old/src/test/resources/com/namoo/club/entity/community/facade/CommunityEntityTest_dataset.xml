@@ -1,0 +1,19 @@
+<dataset>
+	
+	<person email="hyunohkim@testcase.com" password="1234" name="김현오" gender="M" birth_date="1999-12-12" />
+	<person email="hong@testcase.com"      password="abcd" name="홍길순" gender="F" birth_date="1999-12-13" />
+	<person email="kimgisa@testcase.com"      password="abcd" name="김기사" gender="F" birth_date="1999-12-13" />
+
+	<community comm_id="1" comm_nm="스포츠 커뮤니티" comm_desc="스포츠에 관심있는 사람들의 커뮤니티" open_dt="2014-04-09 10:00:00" />
+	<community comm_id="2" comm_nm="프로그래밍 커뮤니티" comm_desc="프로그래밍 언어 연구 커뮤니티" open_dt="2014-04-09 10:00:00" />
+	<community comm_id="3" comm_nm="독서 커뮤니티" comm_desc="독서 토론 커뮤니티" open_dt="2014-04-09 10:00:00" />
+
+	<club_ctgr comm_id="1" ctgr_no="1" ctgr_nm="축구" />
+	<club_ctgr comm_id="1" ctgr_no="2" ctgr_nm="야구" />
+	<club_ctgr comm_id="1" ctgr_no="3" ctgr_nm="농구" />
+
+	<!-- mbs_role - 01:회원, 02:운영자, 03:대표관리자 -->
+	<membership grp_cls="01" grp_id="1" email="hyunohkim@testcase.com" mbs_role="03" mbs_state="03" start_dt="2014-04-09 15:50:10" end_dt="9999-12-31" />
+	<membership grp_cls="01" grp_id="1" email="hong@testcase.com" mbs_role="01" mbs_state="03" start_dt="2014-04-09 15:50:10" end_dt="9999-12-31" />
+	
+</dataset>

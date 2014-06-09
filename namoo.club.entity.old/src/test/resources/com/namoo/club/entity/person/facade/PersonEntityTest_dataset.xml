@@ -1,0 +1,4 @@
+<dataset>
+	<person email="hyunohkim@testcase.com" password="1234" name="김현오" gender="M" birth_date="1999-12-12" />
+	<person email="hong@testcase.com"      password="abcd" name="홍길순" gender="F" birth_date="1999-12-13" />
+</dataset>
